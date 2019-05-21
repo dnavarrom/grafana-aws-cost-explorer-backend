@@ -61,4 +61,4 @@ typings/
 .next
 
 #basic-auth
-auth.js
+#auth.js

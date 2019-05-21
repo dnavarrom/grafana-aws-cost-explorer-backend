@@ -11,5 +11,9 @@
         "ttl" : "86400",
         "checkperiod": "86400", 
         "deleteOnExpire" : true
+    },
+    "AUTH" : {
+        "enabled" : "false",
+        "secret" : "thepassword"
     }
 }

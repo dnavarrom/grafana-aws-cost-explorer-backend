@@ -19,7 +19,21 @@ var bodyParser = require('body-parser');
 var _ = require('lodash');
 var auth = require('./lib/auth.js');
 var app = express();
-app.use(auth);
+const config = require('config');
+
+if (config.has('AUTH') && config.has('AUTH.enabled') && config.has('AUTH.secret')) {
+  if (config.get('AUTH.enabled') == "true") {
+    console.log("enabling basic authentication");
+    app.use(auth);
+  } else {
+    console.log("authentication disabled in config file.. disabling basic authentication");
+  }
+}
+else {
+  console.log("auth key not present.. disabling basic authentication")
+}
+
+
 var dataStore = require('./lib/dataStore.js');
 
 /* //not working
