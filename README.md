@@ -65,7 +65,7 @@ It works!!
 
 ## Grafana Dashboard Configuration
 
-Sample Dashboard can be downloaded [here](https://github.com/dnavarrom/grafana-aws-cost-explorer-backend/docs/sampleDashboard.json)
+Sample Dashboard can be downloaded [here](./docs/sampleDashboard.json)
 
 * Last Month Costs Widget uses Last Month Aggregated Query - Table Type
 ![](./docs/config-dashboard-1.png)
