@@ -1,19 +1,19 @@
 {
     "AWS": {
-        "CostExplorer" : {
-            "apiVersion" : "2017-10-25",
-            "accessKeyId" : "AKIAZETESTTESTELHO",
-            "secretAccessKey" : "Gt2aTESTTESTTESTTEST8jQoGt1/R+Gy3Q15x8vN23",
-            "region" : "us-east-1"
+        "CostExplorer": {
+            "apiVersion": "2017-10-25",
+            "accessKeyId": "AKIAZETESTTESTELHO",
+            "secretAccessKey": "Gt2aTESTTESTTESTTEST8jQoGt1/R+Gy3Q15x8vN23",
+            "region": "us-east-1"
         }
     },
-    "CACHE" : {
-        "ttl" : "86400",
-        "checkperiod": "86400", 
-        "deleteOnExpire" : true
+    "CACHE": {
+        "ttl": "86400",
+        "checkperiod": "86400",
+        "deleteOnExpire": true
     },
-    "AUTH" : {
-        "enabled" : "false",
-        "secret" : "thepassword"
+    "AUTH": {
+        "enabled": "false",
+        "secret": "thepassword"
     }
 }

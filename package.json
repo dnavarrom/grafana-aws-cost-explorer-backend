@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/dnavarrom/grafana-aws-cost-explorer-backend#readme",
   "dependencies": {
-    "aws-cost-explorer": "^0.1.1",
+    "aws-cost-explorer": "^0.1.2",
     "basic-auth": "^2.0.1",
     "body-parser": "^1.15.1",
     "config": "^3.1.0",
